@@ -1,0 +1,36 @@
+.Box-geral {
+    background-color: #f3f2ef;
+    width: 100%;
+    height: 5000px;    
+}
+
+.Box-header {
+    position: absolute;
+    top: 76px;
+    margin-left: 196px;
+}
+
+.Img-capa {
+    width: 782px;
+    height: 195px;
+}
+
+.Box-PerfilP {
+    background-color: #ffffff;
+    width: 782px;
+    height: 545px;
+    border: 2px;
+    border-radius: 8px;
+    
+}
+h1{
+    font-size: 16px;
+    line-height: 24px;
+    display: inline-block;
+}
+
+.Name-pronome {
+    position: relative;
+    right: 300px;
+    top: 64px;
+}
