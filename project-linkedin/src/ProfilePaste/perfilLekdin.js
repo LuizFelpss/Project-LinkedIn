@@ -1,4 +1,5 @@
 import './Perfprofile.css';
+import Navegador from '../navRotas';
 import {FaLinkedin} from 'react-icons/fa'
 import {BiPencil} from "react-icons/bi"
 import {AiFillCamera} from 'react-icons/ai'
@@ -6,6 +7,7 @@ import {IoEyeSharp} from 'react-icons/io'
 function PerfilLink() {
     return (
         <div>
+            <Navegador/>
             <body className="Box-geral">
                 <div className="Box-header">
                     <header className="Box-PerfilP">
