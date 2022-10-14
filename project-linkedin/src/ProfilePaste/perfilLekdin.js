@@ -1,28 +1,30 @@
 import './Perfprofile.css';
 import Navegador from '../navRotas';
-import {FaLinkedin} from 'react-icons/fa'
-import {BiPencil} from "react-icons/bi"
-import {AiFillCamera} from 'react-icons/ai'
-import {IoEyeSharp} from 'react-icons/io'
-function PerfilLink() {
+import { FaLinkedin } from 'react-icons/fa'
+import { BiPencil } from "react-icons/bi"
+import { AiFillCamera } from 'react-icons/ai'
+import { BsFillEyeFill } from 'react-icons/bs'
+import BarChartIcon from '@mui/icons-material/BarChart';
+import GroupIcon from '@mui/icons-material/Group';
+import SearchIcon from '@mui/icons-material/Search'; function PerfilLink() {
     return (
         <div>
-            <Navegador/>
+            <Navegador />
             <body className="Box-geral">
                 <div className="Box-header">
                     <header className="Box-PerfilP">
                         <div>
                             <img className='Img-capa' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMwZigZ-t3pYvo5IWMphNPJ-GeSSFxRuLfDg&usqp=CAU" alt="fundo"></img>
                         </div>
-                            <AiFillCamera className='Icone-cam'/>
+                        <AiFillCamera className='Icone-cam' />
                         <img className='Foto-Profile' src="https://media-exp1.licdn.com/dms/image/C4D03AQGMGNOxrLAAdw/profile-displayphoto-shrink_400_400/0/1663178513720?e=1671062400&v=beta&t=jHdT08CNLrojzNeom5DBo6S-eV5ZKPyr9y6BJAbt8GQ" alt='foto de perfil'></img>
                         <div className='Box-tudoerrado'>
                             <div className='Name-pronome'>
                                 <h1>Luiz Felipe</h1>
                                 <span>(Ele)</span>
                             </div>
-                            <FaLinkedin className='Icone-Premium'/>
-                            <BiPencil className='Icone-pencil'/>
+                            <FaLinkedin className='Icone-Premium' />
+                            <BiPencil className='Icone-pencil' />
                             <div className='Box-carglo'>
                                 <h4>Desenvolvedor Full-Stack Java | Git-Github</h4>
                                 <span className='Ender-inf'> Camaragibe, Pernambuco, Brasil </span>
@@ -41,22 +43,26 @@ function PerfilLink() {
                             </section>
                         </div>
                     </header>
-                    <div className='box-Sugestions'>
+                    <div className='Box-Analise'>
                         <article>
-                            <div>
-                                <h2><span>Sugestôes para você</span></h2>
+                            <div className='Anali-prin'>
+                                <h3>Análise</h3>
+                                <BsFillEyeFill className='Anali-icon' />
                                 <span>Exibido apenas para você</span>
                             </div>
-                            <div>
-                                <div>
-                                    <span>Intermediário</span>
-                                    <div>
-                                        <progress value="70" max="100">70%</progress>
-                                    </div>
-                                    <div>
-                                        <span>Conclua 1 etapa para alcançar o nível de perfil</span>
-                                        <a href="">Campeão</a>
-                                    </div>
+                            <div className='Box-anali-principal'>
+                                <div className='Box-anali-1'>
+                                    
+                                    <h3><GroupIcon className='Box-anali-1-icon'/>35 visualizações do perfil</h3>
+                                    <p> Saiba quem viu seu perfil.</p>
+                                </div>
+                                <div className='Box-anali-2'>
+                                    <h3><BarChartIcon className='Box-anali-2-icon' />23 impressões das <br></br>publicações</h3>
+                                    <p> Confira quem está interagindo<br></br> com suas publicações.</p>
+                                </div>
+                                <div className='Box-anali-3'>
+                                    <h3> <SearchIcon  className='Box-anali-3-icon'/>10 corrências em <br></br> resultados de pesquisa</h3>
+                                    <p> Veja a frequência com que seu <br></br> perfil é exibido em resultados<br></br> de pesquisa.</p>
                                 </div>
                             </div>
                         </article>

@@ -20,7 +20,8 @@
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 }
-.Icone-cam{
+
+.Icone-cam {
     position: relative;
     display: inline-block;
     left: 438px;
@@ -29,10 +30,11 @@
     border-color: white;
     border-radius: 100px;
     background-color: white;
-    color:#0a66c2;
+    color: #0a66c2;
     font-size: 18px;
 }
-.Icone-cam :hover{
+
+.Icone-cam :hover {
     background-color: white;
     color: #004182;
 }
@@ -92,6 +94,7 @@ h1 {
     right: 245px;
     margin-top: 8px;
 }
+
 .Ender-inf {
     position: relative;
     left: 125px;
@@ -104,6 +107,7 @@ h1 {
 
 .Contact {
     position: relative;
+    display: inline-block;
     bottom: 27px;
     left: 130px;
     font-size: 14px;
@@ -213,14 +217,124 @@ h1 {
     font-size: 14px;
 }
 
-.box-Sugestions {
+.Box-Analise {
     position: relative;
     display: inline-block;
     background-color: #ffffff;
     width: 782px;
-    height: 353px;
+    height: 210px;
     border: 2px;
     border-radius: 8px;
+    bottom: 49px;
+}
+
+.Anali-prin {
+    position: relative;
+    width: 179px;
+    height: 54px;
+    display: block;
+    top: 3px;
+    left: 12px;
+}
+
+.Anali-prin h3 {
+    position: relative;
+    font-size: 20px;
+    left: 12px;
+    text-align: left;
+}
+
+.Anali-prin span {
+    position: relative;
+    bottom: 25px;
+    left: 12px;
+    font-size: 14px;
+}
+
+.Anali-icon {
+    position: relative;
+    bottom: 23px;
+    left: 9px;
+}
+
+.Box-anali-principal {
+    width: 782px;
+    height: 131px;
+    position: relative;
+    display: inline-block;
+}
+.Box-anali-1{
+    display: inline-block;
+    position: relative;
+    bottom: 69px;
+    right: 72px;
+}
+.Box-anali-1 h3{
+    position: relative;
+    font-size: 16px;
+    left: 10px;
+}
+.Box-anali-1 p{
+    position: relative;
+    display: inline-block;
+    bottom: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    bottom: 30px;
+}
+.Box-anali-1-icon{
+    display: inline;
+    position: relative;
+    top: 4px;
+    right: 12px;
+    
+}
+
+.Box-anali-2{
+    display: inline-block;
+    position: relative;
+    bottom: 45px;
+    right: 32px;
+}
+.Box-anali-2 h3{
+    position: relative;
+    display: inline;
+    font-size: 16px;
+}
+.Box-anali-2 p{
+    position: relative;
+    bottom: 20px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.Box-anali-2-icon{
+    display: inline;
+    position: relative;
+    top: 4px;
+    right: 12px;
+    
+}
+.Box-anali-3{
+    display: inline-block;
+    position: relative;
+    bottom: 25px;
+}
+.Box-anali-3 h3{
+    position: relative;
+    font-size: 16px;
+}
+.Box-anali-3 p{
+    position: relative;
+    bottom: 20px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.Box-anali-3-icon{
+    display: inline;
+    position: relative;
+    top: 4px;
+    right: 12px;
+    
 }
 .Icone-Premium {
     position: relative;
@@ -229,6 +343,7 @@ h1 {
     bottom: 80px;
     color: rgb(198, 169, 3);
 }
+
 .Icone-pencil {
     position: relative;
     left: 615px;
@@ -239,9 +354,10 @@ h1 {
     cursor: pointer;
     border: 2px solid;
     border-radius: 20px;
-    border-color: white;   
+    border-color: white;
 }
-.Icone-pencil:hover{
+
+.Icone-pencil:hover {
     color: #000000;
     opacity: 8.0%;
     background-color: #000000;

@@ -8,6 +8,12 @@ import Feed from './FeedPaste/Feed';
 function App() {
   return (
     <div className="App">
+<<<<<<< HEAD
+=======
+      <div className="wrapper">   
+     </div>
+      <header>
+>>>>>>> da04cb64daf3978c27e314b7c906c2adc04d764a
       <Router>
       <Navegador/>
          <Routes>
