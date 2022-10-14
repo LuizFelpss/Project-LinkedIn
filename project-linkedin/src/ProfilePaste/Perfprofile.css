@@ -107,6 +107,7 @@ h1 {
 
 .Contact {
     position: relative;
+    display: inline-block;
     bottom: 27px;
     left: 130px;
     font-size: 14px;
@@ -224,6 +225,7 @@ h1 {
     height: 210px;
     border: 2px;
     border-radius: 8px;
+    bottom: 49px;
 }
 
 .Anali-prin {
@@ -231,23 +233,28 @@ h1 {
     width: 179px;
     height: 54px;
     display: block;
+    top: 3px;
     left: 12px;
 }
 
 .Anali-prin h3 {
+    position: relative;
     font-size: 20px;
+    left: 12px;
     text-align: left;
 }
 
 .Anali-prin span {
     position: relative;
     bottom: 25px;
+    left: 12px;
     font-size: 14px;
 }
 
 .Anali-icon {
     position: relative;
     bottom: 23px;
+    left: 9px;
 }
 
 .Box-anali-principal {
@@ -259,17 +266,21 @@ h1 {
 .Box-anali-1{
     display: inline-block;
     position: relative;
+    bottom: 69px;
+    right: 72px;
 }
 .Box-anali-1 h3{
     position: relative;
     font-size: 16px;
-    
+    left: 10px;
 }
 .Box-anali-1 p{
     position: relative;
+    display: inline-block;
     bottom: 20px;
     font-size: 14px;
     line-height: 20px;
+    bottom: 30px;
 }
 .Box-anali-1-icon{
     display: inline;
@@ -282,6 +293,8 @@ h1 {
 .Box-anali-2{
     display: inline-block;
     position: relative;
+    bottom: 45px;
+    right: 32px;
 }
 .Box-anali-2 h3{
     position: relative;
@@ -304,6 +317,7 @@ h1 {
 .Box-anali-3{
     display: inline-block;
     position: relative;
+    bottom: 25px;
 }
 .Box-anali-3 h3{
     position: relative;

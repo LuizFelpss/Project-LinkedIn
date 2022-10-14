@@ -7,8 +7,7 @@ import Sidebar from './FeedPaste/sidebar';
 function App() {
   return (
     <div className="App">
-      <div className="wrapper">
-    <Sidebar/>   
+      <div className="wrapper">   
      </div>
       <header>
       <Router>
