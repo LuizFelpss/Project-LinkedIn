@@ -6,16 +6,18 @@ import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom'
 
 
 
+
 const Sidebar = () => {
   return (
     <div className="sidebar">
+     
       <div className="sidebar__top">
          <img src="https://cdn.pocket-lint.com/r/s/1200x630/assets/images/150401-tv-feature-harry-potter-image1-vpdnsqfrou.jpg" alt=""/>
       
       <Avatar className="sidebar__avatar"/>
-
-      <h3>Felipe Felix 
-      </h3>
+        
+      <a href="http://localhost:3000/Perfil"><h3>Felipe Felix 
+      </h3> </a>
       <h4>Desenvolvedor Web | CSS | JavaScript | SQL Server | SQL Oracle | Python | Java | React | Angular | Git👨🏻‍💻 💡</h4>
       <div className="sidebar__contents">
         <div className="sidebar__cont">
@@ -25,7 +27,7 @@ const Sidebar = () => {
         </div>
         <div className="sidebar__cont">
         <p>
-           <a href="">
+           <a href="http://localhost:3000/Perfil">
                Acesse ferramentas e estatísticas<br/>
                exclusivas <br/>
                {""}

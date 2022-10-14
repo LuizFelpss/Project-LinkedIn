@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const InputIcon = ({Icon, title, color}) => {
   return (
     <div className="inputIcon">

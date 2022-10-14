@@ -3,18 +3,18 @@ import Sidebar from './FeedPaste/sidebar';
 function  Navegador() {
 
     return (
-        <header>
+        
             <div className="content">
                 <div className="part1">
 
                     <nav>
                         <ul>
-                            <li><Link to="/Perfil">PerfilLink</Link></li>
+                            <Link to="/Perfil"></Link>
                         </ul>
                     </nav>
                 </div>
             </div>
-        </header>
+        
     )
     
 }

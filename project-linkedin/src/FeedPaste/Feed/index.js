@@ -1,12 +1,12 @@
-import React, {useState} from 'react'
 import './styles.css'
+
 import CreateIcon from '@mui/icons-material/Create';
 import PhotoIcon from '@mui/icons-material/Photo';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import EventIcon from '@mui/icons-material/Event';
 import VerticalSplitIcon from '@mui/icons-material/VerticalSplit';
 import InputIcon from './InputIcon';
-
+import React, {useState} from 'react'
 const Feed = () => {
     const [input, setInput] = useState('')
 
@@ -18,6 +18,7 @@ const Feed = () => {
 
   return (
     <div className="feed">
+        
         <div className="feed__containerInput">
             <div className="feed__input">
             <CreateIcon className="feed__input_icon"/>

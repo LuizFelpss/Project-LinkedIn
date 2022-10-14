@@ -4,27 +4,25 @@ import Navegador from './navRotas';
 import PerfilLink from './ProfilePaste/perfilLekdin';
 import Sidebar from './FeedPaste/sidebar';
 import Feed from './FeedPaste/Feed';
+import Widgets from './FeedPaste/Widgets';
+import Header from './FeedPaste/Header';
 
 function App() {
   return (
     <div className="App">
-<<<<<<< HEAD
-=======
-      <div className="wrapper">   
-     </div>
-      <header>
->>>>>>> da04cb64daf3978c27e314b7c906c2adc04d764a
-      <Router>
+      <Header/>
+      <div className="wrapper">
+      <Sidebar/>
+      <Feed/>
+      <Widgets/>
+      </div>
+      <div><Router>
       <Navegador/>
          <Routes>
            <Route path='/Perfil' element={<PerfilLink/>}/>
          </Routes>
        </Router>
-      <div className="wrapper">
-      <Sidebar/>
-
-      <Feed/>
-      </div>
+       </div>
     </div>
   );
 }
