@@ -1,0 +1,65 @@
+.feed{
+    flex: .55;
+    margin: 0 20px;
+}
+.feed__containerInput{
+    display: flex;
+    flex-direction: column;
+    padding: 8px 16px;
+    border: 1px solid #ddd;
+    background: white;
+    border-radius: 10px;
+}
+.feed__input{
+    display:flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    padding: 10px 16px;
+    margin: 4px 0;
+}
+.feed__input_icon{
+    fill: gray !important;
+    width: 24px !important;
+    height: 24px !important;
+}
+.feed__input > form {
+    width: 100%;
+    display: flex;
+}
+.feed__input > form > input{
+    margin-left: 10px;
+    border: none;
+    font-size: 14px;
+    outline: 0;
+    flex: 1;
+    color: rgba(0,0,0, .8);
+    font-weight: 600;
+}
+.feed__input > form > button {
+    opacity: 0;
+}
+.feed__inputIcon{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+/* INPUTICONS*/
+.inputIcon{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px 10px
+}
+.inputIcon > h3{
+    font-size: 14px;
+    color: rgba(0,0,0, .6);
+    margin-left: 5px;
+    font-weight: 500;
+
+}
+.inputIcon:hover{
+    background: rgba(0,0,0, 0.08);
+    border-radius: 10px;
+}

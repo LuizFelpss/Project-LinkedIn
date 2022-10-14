@@ -2,6 +2,9 @@ import React from 'react'
 import './styles.css'
 import { Avatar} from "@mui/material"
 import TurnedInIcon from '@mui/icons-material/TurnedIn';
+import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom' 
+
+
 
 const Sidebar = () => {
   return (
@@ -11,7 +14,8 @@ const Sidebar = () => {
       
       <Avatar className="sidebar__avatar"/>
 
-      <h3>Felipe Felix</h3>
+      <h3>Felipe Felix 
+      </h3>
       <h4>Desenvolvedor Web | CSS | JavaScript | SQL Server | SQL Oracle | Python | Java | React | Angular | Git👨🏻‍💻 💡</h4>
       <div className="sidebar__contents">
         <div className="sidebar__cont">
@@ -21,7 +25,7 @@ const Sidebar = () => {
         </div>
         <div className="sidebar__cont">
         <p>
-           <a href="#">
+           <a href="">
                Acesse ferramentas e estatísticas<br/>
                exclusivas <br/>
                {""}

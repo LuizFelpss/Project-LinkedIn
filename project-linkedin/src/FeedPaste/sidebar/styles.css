@@ -8,6 +8,8 @@
     width: 1128px;
     margin: 30px;
     display: flex;
+    padding-left: 10%;
+    margin: 15px
 }
 .sidebar{
     position: sticky;
