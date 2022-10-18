@@ -9,6 +9,7 @@
     padding-left: 10px;
     text-align: center;
     border-radius: 8px;
+    left: 98px;
 }
 
 .Segue {
@@ -30,7 +31,7 @@
 }
 
 .Agora {
-    color: gray;
+    color: grey;
     font-size: 5px;
     text-align: center;
 
@@ -38,6 +39,7 @@
 }
 
 .Segundo {
+    position: relative;
     color: black;
     font-size: 10px;
     text-align: center;
@@ -48,25 +50,62 @@
 .Outra {
     position: relative;
     width: 332px;
-    border-color: white solid;
-    background-color: ghostwhite;
+    height: 563px;
+    border-color: white;
+    background-color: white;
     border: 1px solid white;
     border-radius: 8px;
     font-size: 10px;
 
 
 }
-
+.Box-div{
+    position: relative;
+    top: 10px;
+    margin-top: 15px;
+    position: relative;
+    width: 290px;
+    height: 84px;
+}
 .Proximo1 {
+    position: relative;
+    display:  inline-block;
     color: black;
-    font-size: 10px;
+    font-size: 14px;
+    bottom: 25px ;
+    left: 68px;
+    text-align: left;
+}
+.Proximo1Span{
+    position: relative;
+    display: inline-block;
+    font-size: 12px;
+    bottom: 10px ;
+    line-height: 20px;
     text-align: center;
+    right: 20px;
 }
 
-.Botão1 {
-    color: black;
-    font-size: 10px;
-    text-align: center;
+.Botton1 {
+    position: relative;
+    border: solid 2px rgba(0, 0, 0, 0.253);
+    border-radius: 16px;
+    outline: none;
+    font-size: 14px;
+    width: 114px;
+    height: 32px;
+    bottom: 15px;
+    color: dimgray;
+    background-color: #ffffff;
+    border-color: dimgray;
+
+}
+
+.Bottons-pro3:hover {
+    color: dimgray;
+    background-color: #EBEBEB;
+    border: solid 3px;
+    cursor: pointer;
 
 }
 
@@ -132,9 +171,11 @@
 }
 
 .Foto1 {
-    max-width: px;
-    max-height: 50px;
-    border-radius: 200px;
+    position: relative;
+    display: inline-block;
+    right: 189px;
+    height: 50px;
+    border-radius: 50px;
 
 }
 

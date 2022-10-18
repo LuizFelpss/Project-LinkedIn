@@ -21,7 +21,7 @@ function PerfilLink() {
                             <img className='Img-capa' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMwZigZ-t3pYvo5IWMphNPJ-GeSSFxRuLfDg&usqp=CAU" alt="fundo"></img>
                         </div>
                         <AiFillCamera className='Icone-cam' />
-                        <img className='Foto-Profile' src="https://media-exp1.licdn.com/dms/image/C4D03AQGMGNOxrLAAdw/profile-displayphoto-shrink_400_400/0/1663178513720?e=1671062400&v=beta&t=jHdT08CNLrojzNeom5DBo6S-eV5ZKPyr9y6BJAbt8GQ" alt='foto de perfil'></img>
+                        <img className='Foto-Profile' src="https://media-exp1.licdn.com/dms/image/D4D03AQGhxK0UUHAlaA/profile-displayphoto-shrink_400_400/0/1665710465997?e=1671667200&v=beta&t=NZT4T_OsV-Ck5kVL9h5dCmG4GeslzQl90_i3sAZfVTo" alt='foto de perfil'></img>
                         <div className='Box-tudoerrado'>
                             <div className='Name-pronome'>
                                 <h1>Luiz Felipe</h1>
