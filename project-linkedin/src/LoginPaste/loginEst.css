@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+.Input_email {
+  line-height: 52px;
+  border-radius: 4px;
+}
+
+.Input_senha {
+  line-height: 52px;
+  border-radius: 4px;
+}
+
+.Pergunta_Esqueceu {
+  position: relative;
+  left: -8px;
+  margin-top: 8px;
+  color: #0073b1;
+}
+
+.Btt_Entrar {
+  color: #fff;
+  background-color: #0073b1;
+  line-height: 52px;
+}
+
+.Btt_Google{
+  line-height: 52px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.Btt_Apple{
+  line-height: 52px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.Cadastrar1 {
+  color: #0073b1;
+  position: relative;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+.Footer {
+  color: rgba(0, 0, 0, 0.6);
+  padding-right: 8px;
+  padding-left: 8px;
+}

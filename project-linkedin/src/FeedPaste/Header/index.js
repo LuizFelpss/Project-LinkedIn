@@ -9,6 +9,8 @@ import NotificationsIcon from '@mui/icons-material/Notifications';
 import AppsIcon from '@mui/icons-material/Apps';
 import SearchIcon from '@mui/icons-material/Search';
 import './styles.css'
+import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom' 
+
 
 export const Header = () => {
   return (
@@ -23,7 +25,8 @@ export const Header = () => {
         </div>
 
         <div className='headericons'>
-       <HomeIcon Icon={HomeIcon} title="Home"/>
+
+       <Link to="/SystemRots"><HomeIcon Icon={HomeIcon} title="Home"/></Link>
        <ChatIcon Icon={ChatIcon} title="Home"/>
        <BusinessCenterIcon Icon={BusinessCenterIcon} title="Home"/>
        <SupervisorAccountIcon Icon={SupervisorAccountIcon} title="Home"/>

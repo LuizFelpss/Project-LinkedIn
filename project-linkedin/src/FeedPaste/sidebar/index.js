@@ -16,8 +16,8 @@ const Sidebar = () => {
       
       <Avatar className="sidebar__avatar"/>
         
-      <a href="http://localhost:3000/Perfil"><h3>Felipe Felix 
-      </h3> </a>
+      <Link to='/Perfil'><h3>Felipe Felix 
+      </h3></Link>
       <h4>Desenvolvedor Web | CSS | JavaScript | SQL Server | SQL Oracle | Python | Java | React | Angular | Git👨🏻‍💻 💡</h4>
       <div className="sidebar__contents">
         <div className="sidebar__cont">

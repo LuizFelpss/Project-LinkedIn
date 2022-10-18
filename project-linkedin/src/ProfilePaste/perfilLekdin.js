@@ -6,11 +6,14 @@ import { AiFillCamera } from 'react-icons/ai'
 import { BsFillEyeFill } from 'react-icons/bs'
 import BarChartIcon from '@mui/icons-material/BarChart';
 import GroupIcon from '@mui/icons-material/Group';
-import SearchIcon from '@mui/icons-material/Search'; function PerfilLink() {
+import SearchIcon from '@mui/icons-material/Search';
+import Header from '../FeedPaste/Header';
+
+function PerfilLink() {
     return (
         <div>
-            <Navegador />
-            <body className="Box-geral">
+            <Header/>
+            <body >
                 <div className="Box-header">
                     <header className="Box-PerfilP">
                         <div>
@@ -52,8 +55,8 @@ import SearchIcon from '@mui/icons-material/Search'; function PerfilLink() {
                             </div>
                             <div className='Box-anali-principal'>
                                 <div className='Box-anali-1'>
-                                    
-                                    <h3><GroupIcon className='Box-anali-1-icon'/>35 visualizações do perfil</h3>
+
+                                    <h3><GroupIcon className='Box-anali-1-icon' />35 visualizações do perfil</h3>
                                     <p> Saiba quem viu seu perfil.</p>
                                 </div>
                                 <div className='Box-anali-2'>
@@ -61,11 +64,51 @@ import SearchIcon from '@mui/icons-material/Search'; function PerfilLink() {
                                     <p> Confira quem está interagindo<br></br> com suas publicações.</p>
                                 </div>
                                 <div className='Box-anali-3'>
-                                    <h3> <SearchIcon  className='Box-anali-3-icon'/>10 corrências em <br></br> resultados de pesquisa</h3>
+                                    <h3> <SearchIcon className='Box-anali-3-icon' />10 corrências em <br></br> resultados de pesquisa</h3>
                                     <p> Veja a frequência com que seu <br></br> perfil é exibido em resultados<br></br> de pesquisa.</p>
                                 </div>
                             </div>
                         </article>
+                        <div className='Recurses'>
+                            <article>
+
+                            </article>
+                        </div>
+
+                        <div className='Biogra'>
+                            <article>
+                            </article>
+                        </div>
+
+                        <div className='Ativ'>
+                            <article>
+                            </article>
+                        </div>
+
+                        <div>
+                            <article>
+                            </article>
+                        </div>
+
+                        <div>
+                            <article>
+                            </article>
+                        </div>
+
+                        <div>
+                            <article>
+                            </article>
+                        </div>
+
+                        <div>
+                            <article>
+                            </article>
+                        </div>
+
+                        <div>
+                            <article>
+                            </article>
+                        </div>
                     </div>
                     <footer className='Rodape'>
                         <ul className='List-rodape'>
