@@ -258,18 +258,21 @@ h1 {
     position: relative;
     display: inline-block;
 }
-.Box-anali-1{
+
+.Box-anali-1 {
     display: inline-block;
     position: relative;
     bottom: 69px;
     left: 20px;
 }
-.Box-anali-1 h3{
+
+.Box-anali-1 h3 {
     position: relative;
     font-size: 16px;
     left: 10px;
 }
-.Box-anali-1 p{
+
+.Box-anali-1 p {
     position: relative;
     display: inline-block;
     bottom: 20px;
@@ -277,62 +280,71 @@ h1 {
     line-height: 20px;
     bottom: 30px;
 }
-.Box-anali-1-icon{
+
+.Box-anali-1-icon {
     display: inline;
     position: relative;
     top: 4px;
     right: 12px;
-    
+
 }
 
-.Box-anali-2{
+.Box-anali-2 {
     display: inline-block;
     position: relative;
     bottom: 45px;
     left: 77px;
 }
-.Box-anali-2 h3{
+
+.Box-anali-2 h3 {
     position: relative;
     display: inline;
     font-size: 16px;
 }
-.Box-anali-2 p{
+
+.Box-anali-2 p {
     position: relative;
     bottom: 20px;
     font-size: 14px;
     line-height: 20px;
 }
-.Box-anali-2-icon{
+
+.Box-anali-2-icon {
     display: inline;
     position: relative;
     top: 4px;
     right: 12px;
-    
+
 }
-.Box-anali-3{
+
+.Box-anali-3 {
     display: inline-block;
     position: relative;
     bottom: 25px;
     left: 113px;
 }
-.Box-anali-3 h3{
+
+.Box-anali-3 h3 {
     position: relative;
     font-size: 16px;
 }
-.Box-anali-3 p{
+
+.Box-anali-3 p {
     position: relative;
     bottom: 20px;
     font-size: 14px;
     line-height: 20px;
 }
-.Box-anali-3-icon{
+
+.Box-anali-3-icon {
     display: inline;
     position: relative;
     top: 4px;
     right: 12px;
-    
+
 }
-.Recurses{
+
+.Recurses {
     position: relative;
     display: inline-block;
     width: 782px;
@@ -341,15 +353,78 @@ h1 {
     border: 2px;
     border-radius: 8px;
 }
-.Recurses-p{
+
+.Recurses-p {
     position: relative;
     display: inline-block;
     font-size: 14px;
 }
-.Recurses-p h3{
+
+.Recurses-p h3 {
+    position: relative;
     font-size: 20px;
+    left: 24px;
+    text-align: left;
 }
-.Biogra{
+
+.Recurses-p span {
+    position: relative;
+    bottom: 25px;
+    left: 24px;
+    font-size: 14px;
+}
+
+.Recurses-icon {
+    position: relative;
+    bottom: 23px;
+    font-size: 14px;
+    left: 21px;
+}
+
+.Recurses-box-one {
+    display: inline-block;
+    position: relative;
+    bottom: 25px;
+
+}
+
+.Recurses-box-one h3 {
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    left: 22px;
+}
+.Recurses-box-one-span2{
+    position: relative;
+    display: inline-block;
+    bottom: 14px;
+    font-size: 14px;
+    left: 22px;
+}
+
+.Recurses-box-one-span {
+    position: relative;
+    display: inline-block;
+    left: 25px;
+    border: #EBEBEB;
+    border-radius: 4px;
+    background-color: #EBEBEB;
+    border-color: #EBEBEB;
+}
+.Recurses-box-one2 {
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    left: 22px;
+    bottom: 35px;
+}
+.Recurses-box-one-span3{
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    bottom: 17px;
+}
+.Biogra {
     position: relative;
     display: inline-block;
     width: 782px;
@@ -357,16 +432,7 @@ h1 {
     background-color: #ffffff;
     border: 2px;
     border-radius: 8px;
-
-}
-.Ativ {
-    position: relative;
-    display: inline-block;
-    width: 782px;
-    height: 179px;
-    background-color: #ffffff;
-    border: 2px;
-    border-radius: 8px;
+    top: 8px;
 }
 
 .Icone-Premium {

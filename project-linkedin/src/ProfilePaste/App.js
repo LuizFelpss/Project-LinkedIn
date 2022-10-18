@@ -1,13 +1,10 @@
 import './Style.css';
 import Componente00 from './Componente00.js';
-import { FaRegQuestionCircle } from 'react-icons/fa'
-
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Componente00/>
-      <FaRegQuestionCircle/>
     </div>
   )
 }

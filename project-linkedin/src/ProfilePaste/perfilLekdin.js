@@ -1,6 +1,6 @@
 import './Perfprofile.css';
 import Navegador from '../navRotas';
-import { FaLinkedin } from 'react-icons/fa'
+import { FaLinkedin, FaSatelliteDish } from 'react-icons/fa'
 import { BiPencil } from "react-icons/bi"
 import { AiFillCamera } from 'react-icons/ai'
 import { BsFillEyeFill } from 'react-icons/bs'
@@ -74,18 +74,18 @@ function PerfilLink() {
                             <article>
                                 <div className='Recurses-p'>
                                     <h3>Recursos</h3>
-                                    <span>Exibido apenas a você Exibido apenas a você</span>
+                                    <BsFillEyeFill className='Recurses-icon' />
+                                    <span>Exibido apenas a você</span>
                                 </div>
-                                <div>
-                                    Modo de criaçãoModo de criação
-                                    <h2>Desativado</h2>
-                                    <span>Destaque-se, exiba conteúdos no seu perfil e tenha acesso a ferramentas de criação de
-                                        conteúdoDestaque-se, exiba conteúdos no seu perfil e
-                                        tenha acesso a ferramentas de criação de conteúdo</span>
+                                <div className='Recurses-box-one'>
+                                    <h3><FaSatelliteDish /> Modo de criação</h3>
+                                    <span className='Recurses-box-one-span'>Desativado</span>
+                                    <span className='Recurses-box-one-span2'>Destaque-se, exiba conteúdos no seu perfil e tenha acesso a ferramentas de criação de
+                                        conteúdos</span>
                                 </div>
-                                <div>
-                                    <h2>Minha rede</h2>
-                                    <span>Veja e gerencie suas conexões e interesses.</span>
+                                <div className='Recurses-box-one2'>
+                                    <h3><GroupIcon /> Minha rede</h3>
+                                    <span className='Recurses-box-one-span3'>Veja e gerencie suas conexões e interesses.</span>
 
 
                                 </div>
@@ -94,36 +94,10 @@ function PerfilLink() {
 
                         <div className='Biogra'>
                             <article>
-                            </article>
-                        </div>
-
-                        <div className='Ativ'>
-                            <article>
-                            </article>
-                        </div>
-
-                        <div>
-                            <article>
-                            </article>
-                        </div>
-
-                        <div>
-                            <article>
-                            </article>
-                        </div>
-
-                        <div>
-                            <article>
-                            </article>
-                        </div>
-
-                        <div>
-                            <article>
-                            </article>
-                        </div>
-
-                        <div>
-                            <article>
+                                <div>
+                                    <h3>Sobre</h3>
+                                    <span>Acadêmico em Ciência da Computação.</span>
+                                </div>
                             </article>
                         </div>
                     </div>
