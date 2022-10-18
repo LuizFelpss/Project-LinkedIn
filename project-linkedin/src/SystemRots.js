@@ -12,8 +12,9 @@ function Rotss() {
                 <Header/>
             <div className="wrapper">
                 <Sidebar />
-                <Feed />
+                <Feed />             
                 <Widgets />
+
             </div>
         </div>
     )
