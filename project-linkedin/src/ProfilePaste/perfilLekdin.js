@@ -8,11 +8,12 @@ import BarChartIcon from '@mui/icons-material/BarChart';
 import GroupIcon from '@mui/icons-material/Group';
 import SearchIcon from '@mui/icons-material/Search';
 import Header from '../FeedPaste/Header';
+import Componente00 from './Componente00';
 
 function PerfilLink() {
     return (
         <div>
-            <Header/>
+            <Header />
             <body >
                 <div className="Box-header">
                     <header className="Box-PerfilP">
@@ -71,7 +72,23 @@ function PerfilLink() {
                         </article>
                         <div className='Recurses'>
                             <article>
+                                <div className='Recurses-p'>
+                                    <h3>Recursos</h3>
+                                    <span>Exibido apenas a você Exibido apenas a você</span>
+                                </div>
+                                <div>
+                                    Modo de criaçãoModo de criação
+                                    <h2>Desativado</h2>
+                                    <span>Destaque-se, exiba conteúdos no seu perfil e tenha acesso a ferramentas de criação de
+                                        conteúdoDestaque-se, exiba conteúdos no seu perfil e
+                                        tenha acesso a ferramentas de criação de conteúdo</span>
+                                </div>
+                                <div>
+                                    <h2>Minha rede</h2>
+                                    <span>Veja e gerencie suas conexões e interesses.</span>
 
+
+                                </div>
                             </article>
                         </div>
 
@@ -132,6 +149,7 @@ function PerfilLink() {
                         </ul>
                     </footer>
                 </div>
+                <Componente00 />
             </body>
         </div>
     )

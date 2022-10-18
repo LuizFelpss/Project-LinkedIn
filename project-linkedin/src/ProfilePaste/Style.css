@@ -1,0 +1,164 @@
+.Principal {
+    position: relative;
+    width: 332px;
+    margin-top: 30px;
+    margin-left: 930px;
+    margin-right: 4px;
+    padding-top: 3px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.Segue {
+    position: relative;
+    background-color: white;
+    border-color: white;
+    width: 332px;
+    height: 113px;
+    border-radius: 8px;
+}
+
+.Primeiro {
+    
+    color: black;
+    font-size: 10px;
+    text-align: center;
+
+
+}
+
+.Agora {
+    color: gray;
+    font-size: 5px;
+    text-align: center;
+
+
+}
+
+.Segundo {
+    color: black;
+    font-size: 10px;
+    text-align: center;
+    margin-left: 15px;
+
+}
+
+.Outra {
+    position: relative;
+    width: 332px;
+    border-color: white solid;
+    background-color: ghostwhite;
+    border: 1px solid white;
+    border-radius: 8px;
+    font-size: 10px;
+
+
+}
+
+.Proximo1 {
+    color: black;
+    font-size: 10px;
+    text-align: center;
+}
+
+.Botão1 {
+    color: black;
+    font-size: 10px;
+    text-align: center;
+
+}
+
+.Proximo2 {
+    color: black;
+    font-size: 10px;
+    text-align: center;
+
+
+}
+
+.Botão2 {
+    color: black;
+    font-size: 10px;
+    text-align: center;
+
+}
+
+.Proximo3 {
+    color: black;
+    font-size: 10px;
+    text-align: center;
+
+
+}
+
+.Botão3 {
+    color: black;
+    font-size: 10px;
+    text-align: center;
+
+}
+
+.Proximo4 {
+    color: black;
+    font-size: 10px;
+    text-align: center;
+
+
+}
+
+.Botão4 {
+    color: black;
+    font-size: 10px;
+    text-align: center;
+
+}
+
+
+.Proximo5 {
+    color: black;
+    font-size: 10px;
+    text-align: center;
+
+
+}
+
+.Botão5 {
+    color: black;
+    font-size: 10px;
+    text-align: center;
+
+}
+
+.Foto1 {
+    max-width: px;
+    max-height: 50px;
+    border-radius: 200px;
+
+}
+
+.Foto2 {
+    max-width: px;
+    max-height: 50px;
+    border-radius: 200px;
+
+}
+
+.Foto3 {
+    max-width: px;
+    max-height: 50px;
+    border-radius: 200px;
+}
+
+.Foto4 {
+    max-width: px;
+    max-height: 50px;
+    border-radius: 200px;
+}
+
+.Foto5 {
+    max-width: px;
+    max-height: 50px;
+    border-radius: 200px;
+}
