@@ -1,0 +1,240 @@
+body{background-color: beige;}
+
+
+.postagens{
+    background-color: white;
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+    justify-content: center;
+    border-radius:  10px;
+    margin-top: 20px;
+    width: 540px;
+    max-height: 1000px;
+    text-align: center;
+}
+
+
+.topo{
+    height: 5px;
+}
+
+
+.dados{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+
+.postagens h2{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+
+.postagens h2:hover{
+    color: #0A66C2;
+    text-decoration:underline;
+}
+
+
+.fotos img{
+    display:block;
+    border-radius:100px;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+    justify-content:left;
+    justify-items: left;
+    margin-top: 12px;
+    margin-left: 15px;  
+}
+
+
+.nomeProx{
+    display: flex;
+    margin-top: 3px;
+    margin-left: 9px;
+}
+
+
+.nomeProx p{
+    color: rgba(0,0,0,0.6);
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 6px;
+}
+
+
+.nomeProx p svg{
+    width: 4.5px
+}
+
+
+.pontos svg{
+    display: block;
+    font-size: 14px;
+    width: 24px;
+    height: 24px;
+    font-size: 14px;
+    color: rgba(0,0,0,0.6);
+    cursor: pointer;
+    border-radius: 100px;
+    font-weight: 600;
+    line-height: 20px;
+    position: absolute;
+    margin-left: 505px;
+    margin-top: 10px;
+}
+
+
+.pontos svg:hover{
+    background-color: rgba(0,0,0,0.12);
+}
+
+
+.cargo{
+    font-size: 12px;
+    line-height: 16px;
+    cursor: pointer;
+    display: flex;
+    margin-top: 33px;
+    position: absolute;
+    margin-left: 72px;
+    color: rgba(0, 0, 0, 0.6);
+
+}
+
+
+
+.tempo{
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0,0,0,0.6);
+    cursor: pointer;
+}
+
+.tempoMund{
+    display: flex;
+    margin-top: 48px;
+    position: absolute;
+    margin-left: 70px;
+}
+
+
+.tempo svg{
+    width: 6px;
+    display: inline;
+}
+
+.texto{
+    margin: auto;
+    width: 95%;
+}
+.texto p{
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none solid rgba(0,0,0,0.9);
+    text-align:left;
+}
+
+
+.imagens{
+    max-width: 540px;
+}
+
+
+.reação{
+    justify-content: left;
+    padding-bottom: 5px;
+    border-bottom: 1px #5555553a solid;
+    display: flex;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 5px;        
+}
+
+
+
+.reaçãoA svg{
+    border-radius: 100px;
+    color: rgb(214, 239, 248);
+    transform: rotateY(180deg);
+    cursor: pointer;
+    border-radius: 100px;
+    background-color: #0073b1;
+    width: 13px;
+    height: 13px;
+}
+
+.reaçãoB svg{
+    border-radius: 100px;
+    color: rgb(233, 199, 199);
+    background-color: #d11124;
+    cursor: pointer;
+    width: 13px;
+    height: 13px;
+
+}
+
+.reaçãoC svg{
+    border-radius: 100px;
+    color: rgb(203, 243, 198);
+    transform: rotateY(180deg);
+    background-color: rgb(2, 145, 38);
+    cursor: pointer;
+    width: 13px;
+    height: 13px;
+}
+
+.reação p{
+    display: inline;
+    font-size: 12px;
+    line-height: 16px;
+    cursor: pointer;
+    color: #555555d5;
+    padding-left: 3px;
+    margin: 2px 0px 0px 0px;
+}
+
+.reação p:hover{
+    color: rgb(10, 102, 194);
+    text-decoration: underline;
+}
+
+.comentarios{
+    align-items: right;
+    text-align: right;
+    justify-content: right;
+    justify-items: right;
+    margin-left: 351px;    
+}
+
+.interação{
+    display: inline-flex;
+    margin-top: 4px;
+    margin-bottom: 3px;
+}
+
+.interação p{
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 14px 22px 14px 22px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(0,0,0,0.6);
+    margin: 0;
+}
+
+.like svg{
+    transform: rotateY(180deg);
+}
+
+.interação p:hover{
+    background-color: rgba(0,0,0,0.12);
+}
