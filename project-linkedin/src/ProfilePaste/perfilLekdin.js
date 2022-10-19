@@ -94,9 +94,10 @@ function PerfilLink() {
 
                         <div className='Biogra'>
                             <article>
-                                <div>
-                                    <h3>Sobre</h3>
-                                    <span>Acadêmico em Ciência da Computação.</span>
+                                <div className='Box-Sobre'>
+                                    <h3 className='Sobre-title'>Sobre</h3>
+                                    <BiPencil className='Sobre-pencil'/>
+                                    <span className='Sobre-text'>Acadêmico em Ciência da Computação.</span>
                                 </div>
                             </article>
                         </div>

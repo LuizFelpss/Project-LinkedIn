@@ -16,37 +16,53 @@
     position: relative;
     background-color: white;
     border-color: white;
+    color: grey;
     width: 332px;
     height: 113px;
     border-radius: 8px;
+    margin-bottom: 10px;
 }
-
+.Box-Segue{
+    position: relative;
+    top: 16px;
+}
 .Primeiro {
-    
-    color: black;
-    font-size: 10px;
-    text-align: center;
-
-
-}
-
-.Agora {
+    position: relative;
+    display: inline-block;
     color: grey;
-    font-size: 5px;
-    text-align: center;
+    font-size: 16px;
+    right: 51px;
 
 
 }
 
 .Segundo {
     position: relative;
-    color: black;
-    font-size: 10px;
+    display: inline-block;
+    position: relative;
+    color: grey;
+    font-size: 16px;
     text-align: center;
     margin-left: 15px;
-
+    right: 34px;
+    top: 10px;
 }
-
+.Icon-Border1{
+    position: relative;
+    color: grey;
+    top: 3px;
+    left: 45px;
+}
+.Icon-Border{
+    position: relative;
+    color: grey;
+    top: 13px;
+    left: 15px;
+}
+hr{
+    position: relative;
+    top: 5px;
+}
 .Outra {
     position: relative;
     width: 332px;

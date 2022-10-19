@@ -6,12 +6,14 @@ function Componente00() {
     return (
         <div className='Principal'>
             <div className="Segue">
-                <h3 className="Primeiro">Editar perfil público e URL</h3>
-                <FaRegQuestionCircle />
-                <p>________________________________</p>
-                <h3 className="Segundo">Adicionar perfil em outro idioma </h3>
+                <div className='Box-Segue'>
+                    <span className="Primeiro">Editar perfil público e URL</span>
+                    <FaRegQuestionCircle className='Icon-Border1' />
+                    <hr></hr>
+                    <span className="Segundo">Adicionar perfil em outro idioma </span>
+                    <FaRegQuestionCircle className='Icon-Border' />
+                </div>
             </div>
-            <FaRegQuestionCircle />
             <div className='Outra'>
                 <h2 className="Proximo">As pessoas tambem viram</h2>
                 <div className='Box-div'>
