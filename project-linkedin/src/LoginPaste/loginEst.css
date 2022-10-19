@@ -1,38 +1,126 @@
 .App {
+
+  width: 100%;
+  height: 100%;
   text-align: center;
+  background-color: white;
+}
+
+.H{
+  right: 675px;
+  position: relative;
+  display: inline-block;
+  color: #0a66c2;
+  font-size: 27px;
+  margin: 32px 0 0 52px;
+}
+.Hearder_text{
+  text-align: left;
+  margin-left: 33px;
+  line-height: 5px;
+  font-size: 31px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  margin-top: 38px;
+}
+
+.Card_layout{
+  width: 380px;
+  height: 580px;
+  border: 2px solid;
+  margin: 0 auto;
+  margin-top: 30px;
+  border-color: white;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 15%);
+  padding-top: 10px;
+}
+
+.Inicio02{
+  text-align: left;
+  margin-left: 32px;
+  line-height: 1.3;
+  font-size: 14px;
 }
 
 .Input_email {
   line-height: 52px;
   border-radius: 4px;
+  padding: 1px;
+  border-radius: 5px;
+  outline: none;
+  padding-left: 15px;
+  font-size: 20px;
+  width: 300px;
+  margin-left: 1px;
+  border-width: 1px;
 }
 
 .Input_senha {
   line-height: 52px;
   border-radius: 4px;
+  padding: 1px;
+  border-radius: 5px;
+  outline: none;
+  padding-left: 15px;
+  font-size: 20px;
+  width: 300px;
+  margin-left: 1px;
+  border-width: 1px;
 }
 
 .Pergunta_Esqueceu {
   position: relative;
-  left: -8px;
-  margin-top: 8px;
   color: #0073b1;
+  margin-right: 180px;
 }
 
 .Btt_Entrar {
+  border-radius: 40px;
   color: #fff;
-  background-color: #0073b1;
+  background-color: var(--color-action, #0a66c2);
   line-height: 52px;
+  width: 320px;
+  margin-left: 1px;
+  border-width: 1px;
+  border: none;
+  margin-top: 20px;
+  font-size: 15px;
 }
 
+.Google-Letra{
+  opacity: 90%;
+}
+
+.Apple-Letra{
+  opacity: 90%;
+  padding-left: 4px;
+  vertical-align: -webkit-baseline-middle;
+}
+
+
 .Btt_Google{
-  line-height: 52px;
+  line-height: 42px;
   color: rgba(0, 0, 0, 0.6);
+  width: 320px;
+  height: 42px;
+  border-radius: 40px;
+  background-color: #fff;
+  border-width: 1px;
+  font-size: 15px;
+  border-color: grey;
+  margin-bottom: 12px;
 }
 
 .Btt_Apple{
-  line-height: 52px;
+  line-height: 30px;
   color: rgba(0, 0, 0, 0.6);
+  width: 320px;
+  height: 42px;
+  margin-left: 1px;
+  border-radius: 40px;
+  background-color: #fff;
+  border-width: 1px;
+  font-size: 15px;
 }
 
 .Cadastrar1 {
@@ -40,10 +128,40 @@
   position: relative;
   padding-right: 8px;
   padding-left: 8px;
+  text-decoration: none;
+  font-weight: 550;
+
 }
 
 .Footer {
+  position: relative;
   color: rgba(0, 0, 0, 0.6);
   padding-right: 8px;
   padding-left: 8px;
+  font-size: 12px;
+  text-decoration: none;
+  
+}
+
+.ou{
+  color: gray
+}
+
+.Icon-Google{
+  width: 35px;
+  height: 25px;
+  vertical-align: -webkit-baseline-middle;
+  margin-bottom: 13px;
+}
+
+
+.Icon-Apple{
+  font-size: 26px;
+  color: black;
+  vertical-align: -webkit-baseline-middle;
+}
+
+.Icon-Linkedin{
+  position: relative;
+  top: 2px;
 }

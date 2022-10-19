@@ -1,16 +1,25 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import './loginEst.css';
+import { FcGoogle } from 'react-icons/fc';
+import { AiFillApple } from 'react-icons/ai';
+import { BsLinkedin } from 'react-icons/bs';
+
 export default function Login() {
   return (
-    <div className="Principal">
-      <body>
-        <header></header>
+    <div>
+      <body className="App">
+        <header className="H">
+          <h1 >
+            Linked
+              <BsLinkedin className="Icon-Linkedin" />
+          </h1>
+        </header>
 
         <div className="Card_layout">
-          <div className="Hearder_text">
-            <h1 className="Hearder_text">Entrar</h1>
+          <div>
+            <p className="Hearder_text">Entrar</p>
 
-            <p>
+            <p class="Inicio02">
               Acompanhe as novidades do seu mundo <br></br>profissional.
             </p>
 
@@ -25,6 +34,7 @@ export default function Login() {
             ></input>
 
             <br></br>
+
             <br></br>
 
             <input
@@ -32,6 +42,7 @@ export default function Login() {
               type="text"
               placeholder="Senha"
             ></input>
+
             <br></br>
 
             <br></br>
@@ -43,30 +54,42 @@ export default function Login() {
 
           <div className="Button_entrar">
             <Link to='/SystemRots'>
-            <button className="Btt_Entrar">
-              <b> Entrar </b>
-            </button>
+              <button className="Btt_Entrar">
+                <b> Entrar </b>
+              </button>
             </Link>
           </div>
 
-          <div className="Google_Apple">
-            <p> ________________ ou ________________</p>
+          <div class="ou">
+            <p>______________________ ou ______________________</p>
+          </div>
+
+          <div>
             <button className="Btt_Google">
-              <b> Entrar com o Google </b>{' '}
+              <b >
+                <FcGoogle className="Icon-Google" />
+              </b>{' '}
+              <b className="Google-Letra"> Entrar com o Google </b>{' '}
             </button>
-            <br></br> <br></br>
+          </div>
+
+          <div>
             <button className="Btt_Apple">
-              <b> Entrar com a Apple</b>{' '}
+              <b className="Icon-Apple">
+                <AiFillApple />
+              </b>{' '}
+              <b className="Apple-Letra">Entrar com a Apple</b>{' '}
             </button>
-            <br></br> <br></br>
+
           </div>
         </div>
 
         <div className="Cadastrar">
-          <p>
-            Novo no LinkdIn?
-            <a className="Cadastrar1" href="">
-              <b>Cadastre-se</b>
+          <p class="NovoLinkedin">
+            {' '}
+            Novo no LinkedIn?
+            <a className="Cadastrar1" href=" ">
+              Cadastre-se
             </a>
           </p>
         </div>
