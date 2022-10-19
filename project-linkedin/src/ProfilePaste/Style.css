@@ -104,7 +104,7 @@ hr{
 
 .Botton1 {
     position: relative;
-    border: solid 2px rgba(0, 0, 0, 0.253);
+    border: solid 2px;
     border-radius: 16px;
     outline: none;
     font-size: 14px;
@@ -117,72 +117,11 @@ hr{
 
 }
 
-.Bottons-pro3:hover {
+.Botton1:hover {
     color: dimgray;
     background-color: #EBEBEB;
     border: solid 3px;
     cursor: pointer;
-
-}
-
-.Proximo2 {
-    color: black;
-    font-size: 10px;
-    text-align: center;
-
-
-}
-
-.Botão2 {
-    color: black;
-    font-size: 10px;
-    text-align: center;
-
-}
-
-.Proximo3 {
-    color: black;
-    font-size: 10px;
-    text-align: center;
-
-
-}
-
-.Botão3 {
-    color: black;
-    font-size: 10px;
-    text-align: center;
-
-}
-
-.Proximo4 {
-    color: black;
-    font-size: 10px;
-    text-align: center;
-
-
-}
-
-.Botão4 {
-    color: black;
-    font-size: 10px;
-    text-align: center;
-
-}
-
-
-.Proximo5 {
-    color: black;
-    font-size: 10px;
-    text-align: center;
-
-
-}
-
-.Botão5 {
-    color: black;
-    font-size: 10px;
-    text-align: center;
 
 }
 
@@ -193,29 +132,4 @@ hr{
     height: 50px;
     border-radius: 50px;
 
-}
-
-.Foto2 {
-    max-width: px;
-    max-height: 50px;
-    border-radius: 200px;
-
-}
-
-.Foto3 {
-    max-width: px;
-    max-height: 50px;
-    border-radius: 200px;
-}
-
-.Foto4 {
-    max-width: px;
-    max-height: 50px;
-    border-radius: 200px;
-}
-
-.Foto5 {
-    max-width: px;
-    max-height: 50px;
-    border-radius: 200px;
 }
