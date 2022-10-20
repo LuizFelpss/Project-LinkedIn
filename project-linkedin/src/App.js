@@ -12,7 +12,7 @@ import Logando from './LoginPaste/linkedinlogin'
 
 function App() {
   return (
-    <div>
+    <div className='App'>
 
       <div>
         <Router>

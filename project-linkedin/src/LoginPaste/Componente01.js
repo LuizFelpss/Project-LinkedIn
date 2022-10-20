@@ -6,7 +6,7 @@ import { BsLinkedin } from 'react-icons/bs';
 
 export default function Login() {
   return (
-    <div>
+    <div className='back'>
       <body className="App">
         <header className="H">
           <h1 >

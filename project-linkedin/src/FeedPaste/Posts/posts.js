@@ -7,6 +7,7 @@ import { RiShareForwardBoxLine } from 'react-icons/ri'
 import { FaLocationArrow } from 'react-icons/fa'
 import { BiLike } from 'react-icons/bi'
 
+//Publicações feitas por Artur Leone
 
 export default function Posts(props) {
     return (
